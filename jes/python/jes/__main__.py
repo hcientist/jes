@@ -11,7 +11,7 @@ Powers up JES.
 # Super early startup
 
 from jes.platform.macosx import installOpenHandler, setDockIcon
-setDockIcon()
+#setDockIcon() #this line seems to cause an issue in MacOS 10.14 "Mojave"
 
 
 # Now, actually start loading stuff
